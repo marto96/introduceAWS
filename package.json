@@ -1,0 +1,26 @@
+{
+    "name": "introduceaws",
+    "version": "1.0.0",
+    "description": "Introduction AWS",
+    "main": "handler.js",
+    "scripts": {
+        "deploy": "sls deploy --stage dev",
+        "local": "sls offline --stage dev",
+        "test": "mocha --timeout 10000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marto96/introduceAWS.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/marto96/introduceAWS/issues"
+    },
+    "homepage": "https://github.com/marto96/introduceAWS#readme",
+    "dependencies": {
+        "aws-sdk": "^2.1046.0",
+        "uuid": "^8.3.2"
+    }
+}
